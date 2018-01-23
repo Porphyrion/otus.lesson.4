@@ -3,13 +3,14 @@ before_script:
     - sudo apt-get update
     - sudo apt-get install doxygen
     - doxygen
-    deploy:
-        provider: pages
-        skip-cleanup: true
-        github-token: $GITHUB_API_KEY  # Set in travis-ci.org dashboard, marked secure
-        keep-history: true
-        on:
-            branch: master
+    - make web
+    - cd web
+    - git init
+    - git checkout -b gh-pages
+    - git add .
+    - git -c user.name='travis' -c user.email='travis' commit -m init
+    - git push -f -q https://Porphyrion:$GITHUB_API_KEY@github.com/Porhyrion/otus.lesson.4-gh-pages gh-pages &2>/dev/null
+    - cd "$TRAVIS_BUILD_DIR"
 script:
 - cmake .
 - cmake --build .
