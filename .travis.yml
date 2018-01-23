@@ -3,8 +3,7 @@ before_script:
     - sudo apt-get update
     - sudo apt-get install doxygen
     - doxygen
-    - make web
-    - cd web
+    - cd html
     - git init
     - git checkout -b gh-pages
     - git add .
