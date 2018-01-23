@@ -6,6 +6,7 @@ script:
 - cmake .
 - cmake --build .
 - cmake --build . --target package
+- doxygen
 deploy:
   provider: script
   skip_cleanup: true
