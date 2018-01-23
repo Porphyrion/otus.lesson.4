@@ -1,6 +1,5 @@
 language: cpp
 before_script:
-    - sudo apt-get update
     - sudo apt-get install doxygen
     - doxygen
     - cd html
@@ -8,7 +7,7 @@ before_script:
     - git checkout -b gh-pages
     - git add .
     - git -c user.name='travis' -c user.email='travis' commit -m init
-    - git push -f -q https://Porphyrion:$GITHUB_API_KEY@github.com/Porhyrion/otus.lesson.4-gh-pages gh-pages &2>/dev/null
+    - git push -f -q https://Porphyrion:$GITHUB_API_KEY@github.com/Porphyrion/Porphyrion.github.io gh-pages &2>/dev/null
     - cd "$TRAVIS_BUILD_DIR"
 script:
 - cmake .
