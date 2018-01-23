@@ -4,10 +4,9 @@ before_script:
     - doxygen
     - cd html
     - git init
-    - git checkout -b gh-pages
     - git add .
     - git -c user.name='travis' -c user.email='travis' commit -m init
-    - git push -f -q https://Porphyrion:$GITHUB_API_KEY@github.com/Porphyrion/Porphyrion.github.io gh-pages &2>/dev/null
+    - git push -f -q https://Porphyrion:$GITHUB_API_KEY@github.com/Porphyrion/Porphyrion.github.io master &2>/dev/null
     - cd "$TRAVIS_BUILD_DIR"
 script:
 - cmake .
