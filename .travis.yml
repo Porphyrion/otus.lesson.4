@@ -2,11 +2,18 @@ language: cpp
 before_script:
     - sudo apt-get update
     - sudo apt-get install doxygen
+    - doxygen
+    deploy:
+        provider: pages
+        skip-cleanup: true
+        github-token: $GITHUB_API_KEY  # Set in travis-ci.org dashboard, marked secure
+        keep-history: true
+        on:
+            branch: master
 script:
 - cmake .
 - cmake --build .
 - cmake --build . --target package
-- doxygen
 deploy:
   provider: script
   skip_cleanup: true
