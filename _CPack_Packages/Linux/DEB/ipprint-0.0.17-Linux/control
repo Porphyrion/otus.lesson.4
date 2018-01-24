@@ -1,9 +1,0 @@
-Package: ipprint
-Version: 0.0.17
-Section: devel
-Priority: optional
-Architecture: amd64
-Installed-Size: 9
-Maintainer: ivanbasurman88@yandex.ru
-Description: ipprint built using CMake
-
