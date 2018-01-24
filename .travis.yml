@@ -1,19 +1,25 @@
 language: cpp
-before_script:
-    - sudo apt-get install doxygen
-    - doxygen
-    - cd html
-    - git init
-    - git add .
-    - git -c user.name='travis' -c user.email='travis' commit -m init
-    - git push -f -q https://Porphyrion:$GITHUB_API_KEY@github.com/Porphyrion/Porphyrion.github.io master &2>/dev/null
-    - cd "$TRAVIS_BUILD_DIR"
+addons:
+  apt:
+    packages:
+      - doxygen
+
 script:
 - cmake .
 - cmake --build .
 - cmake --build . --target package
+- doxygen 
+
 deploy:
   provider: script
   skip_cleanup: true
   script:
   - curl -T ipprint-0.0.$TRAVIS_BUILD_NUMBER-Linux.deb -uporphyrion:$BINTRAY_API_KEY "https://api.bintray.com/content/porphyrion/otus/otus.lessons.4/$TRAVIS_BUILD_NUMBER/ipprint-0.0.$TRAVIS_BUILD_NUMBER-Linux.deb;deb_distribution=trusty;deb_component=main;deb_architecture=amd64;publish=1"
+
+deploy:
+  provider: pages
+  skip-cleanup: true
+  github-token: $GITHUB_API_KEY # Set in travis-ci.org dashboard, marked secure
+  keep-history: true
+  on:
+    branch: master
