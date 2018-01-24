@@ -28,28 +28,28 @@ The CXX compiler identification is GNU, found in "/home/travis/build/Porphyrion/
 Determining if the C compiler works passed with the following output:
 Change Dir: /home/travis/build/Porphyrion/otus.lesson.4/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_a891c/fast"
-/usr/bin/make -f CMakeFiles/cmTC_a891c.dir/build.make CMakeFiles/cmTC_a891c.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_3902f/fast"
+/usr/bin/make -f CMakeFiles/cmTC_3902f.dir/build.make CMakeFiles/cmTC_3902f.dir/build
 make[1]: Entering directory `/home/travis/build/Porphyrion/otus.lesson.4/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_a891c.dir/testCCompiler.c.o
-/usr/bin/gcc    -o CMakeFiles/cmTC_a891c.dir/testCCompiler.c.o   -c /home/travis/build/Porphyrion/otus.lesson.4/CMakeFiles/CMakeTmp/testCCompiler.c
-Linking C executable cmTC_a891c
-/usr/local/cmake-3.9.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a891c.dir/link.txt --verbose=1
-/usr/bin/gcc      -rdynamic CMakeFiles/cmTC_a891c.dir/testCCompiler.c.o  -o cmTC_a891c 
+Building C object CMakeFiles/cmTC_3902f.dir/testCCompiler.c.o
+/usr/bin/gcc    -o CMakeFiles/cmTC_3902f.dir/testCCompiler.c.o   -c /home/travis/build/Porphyrion/otus.lesson.4/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_3902f
+/usr/local/cmake-3.9.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3902f.dir/link.txt --verbose=1
+/usr/bin/gcc      -rdynamic CMakeFiles/cmTC_3902f.dir/testCCompiler.c.o  -o cmTC_3902f 
 make[1]: Leaving directory `/home/travis/build/Porphyrion/otus.lesson.4/CMakeFiles/CMakeTmp'
 
 
 Detecting C compiler ABI info compiled with the following output:
 Change Dir: /home/travis/build/Porphyrion/otus.lesson.4/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_f75b7/fast"
-/usr/bin/make -f CMakeFiles/cmTC_f75b7.dir/build.make CMakeFiles/cmTC_f75b7.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_72c57/fast"
+/usr/bin/make -f CMakeFiles/cmTC_72c57.dir/build.make CMakeFiles/cmTC_72c57.dir/build
 make[1]: Entering directory `/home/travis/build/Porphyrion/otus.lesson.4/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_f75b7.dir/CMakeCCompilerABI.c.o
-/usr/bin/gcc    -o CMakeFiles/cmTC_f75b7.dir/CMakeCCompilerABI.c.o   -c /usr/local/cmake-3.9.2/share/cmake-3.9/Modules/CMakeCCompilerABI.c
-Linking C executable cmTC_f75b7
-/usr/local/cmake-3.9.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f75b7.dir/link.txt --verbose=1
-/usr/bin/gcc     -v -rdynamic CMakeFiles/cmTC_f75b7.dir/CMakeCCompilerABI.c.o  -o cmTC_f75b7 
+Building C object CMakeFiles/cmTC_72c57.dir/CMakeCCompilerABI.c.o
+/usr/bin/gcc    -o CMakeFiles/cmTC_72c57.dir/CMakeCCompilerABI.c.o   -c /usr/local/cmake-3.9.2/share/cmake-3.9/Modules/CMakeCCompilerABI.c
+Linking C executable cmTC_72c57
+/usr/local/cmake-3.9.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_72c57.dir/link.txt --verbose=1
+/usr/bin/gcc     -v -rdynamic CMakeFiles/cmTC_72c57.dir/CMakeCCompilerABI.c.o  -o cmTC_72c57 
 Using built-in specs.
 COLLECT_GCC=/usr/bin/gcc
 COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/4.8/lto-wrapper
@@ -59,8 +59,8 @@ Thread model: posix
 gcc version 4.8.4 (Ubuntu 4.8.4-2ubuntu1~14.04.3) 
 COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/
 LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_f75b7' '-mtune=generic' '-march=x86-64'
- /usr/lib/gcc/x86_64-linux-gnu/4.8/collect2 --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_f75b7 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/4.8/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/4.8 -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../.. CMakeFiles/cmTC_f75b7.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-linux-gnu/4.8/crtend.o /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_72c57' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/4.8/collect2 --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_72c57 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/4.8/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/4.8 -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../.. CMakeFiles/cmTC_72c57.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-linux-gnu/4.8/crtend.o /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crtn.o
 make[1]: Leaving directory `/home/travis/build/Porphyrion/otus.lesson.4/CMakeFiles/CMakeTmp'
 
 
@@ -68,14 +68,14 @@ Parsed C implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
   ignore line: [Change Dir: /home/travis/build/Porphyrion/otus.lesson.4/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_f75b7/fast"]
-  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_f75b7.dir/build.make CMakeFiles/cmTC_f75b7.dir/build]
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_72c57/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_72c57.dir/build.make CMakeFiles/cmTC_72c57.dir/build]
   ignore line: [make[1]: Entering directory `/home/travis/build/Porphyrion/otus.lesson.4/CMakeFiles/CMakeTmp']
-  ignore line: [Building C object CMakeFiles/cmTC_f75b7.dir/CMakeCCompilerABI.c.o]
-  ignore line: [/usr/bin/gcc    -o CMakeFiles/cmTC_f75b7.dir/CMakeCCompilerABI.c.o   -c /usr/local/cmake-3.9.2/share/cmake-3.9/Modules/CMakeCCompilerABI.c]
-  ignore line: [Linking C executable cmTC_f75b7]
-  ignore line: [/usr/local/cmake-3.9.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f75b7.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/gcc     -v -rdynamic CMakeFiles/cmTC_f75b7.dir/CMakeCCompilerABI.c.o  -o cmTC_f75b7 ]
+  ignore line: [Building C object CMakeFiles/cmTC_72c57.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/gcc    -o CMakeFiles/cmTC_72c57.dir/CMakeCCompilerABI.c.o   -c /usr/local/cmake-3.9.2/share/cmake-3.9/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTC_72c57]
+  ignore line: [/usr/local/cmake-3.9.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_72c57.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/gcc     -v -rdynamic CMakeFiles/cmTC_72c57.dir/CMakeCCompilerABI.c.o  -o cmTC_72c57 ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/gcc]
   ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/4.8/lto-wrapper]
@@ -85,8 +85,8 @@ Parsed C implicit link information from above output:
   ignore line: [gcc version 4.8.4 (Ubuntu 4.8.4-2ubuntu1~14.04.3) ]
   ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/]
   ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_f75b7' '-mtune=generic' '-march=x86-64']
-  link line: [ /usr/lib/gcc/x86_64-linux-gnu/4.8/collect2 --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_f75b7 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/4.8/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/4.8 -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../.. CMakeFiles/cmTC_f75b7.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-linux-gnu/4.8/crtend.o /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crtn.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_72c57' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/4.8/collect2 --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_72c57 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/4.8/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/4.8 -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../.. CMakeFiles/cmTC_72c57.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-linux-gnu/4.8/crtend.o /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crtn.o]
     arg [/usr/lib/gcc/x86_64-linux-gnu/4.8/collect2] ==> ignore
     arg [--sysroot=/] ==> ignore
     arg [--build-id] ==> ignore
@@ -100,7 +100,7 @@ Parsed C implicit link information from above output:
     arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
     arg [-zrelro] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_f75b7] ==> ignore
+    arg [cmTC_72c57] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crti.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/4.8/crtbegin.o] ==> ignore
@@ -112,7 +112,7 @@ Parsed C implicit link information from above output:
     arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
     arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
     arg [-L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../..]
-    arg [CMakeFiles/cmTC_f75b7.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [CMakeFiles/cmTC_72c57.dir/CMakeCCompilerABI.c.o] ==> ignore
     arg [-lgcc] ==> lib [gcc]
     arg [--as-needed] ==> ignore
     arg [-lgcc_s] ==> lib [gcc_s]
@@ -142,14 +142,14 @@ Parsed C implicit link information from above output:
 Detecting C [-std=c11] compiler features compiled with the following output:
 Change Dir: /home/travis/build/Porphyrion/otus.lesson.4/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_521aa/fast"
-/usr/bin/make -f CMakeFiles/cmTC_521aa.dir/build.make CMakeFiles/cmTC_521aa.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_49799/fast"
+/usr/bin/make -f CMakeFiles/cmTC_49799.dir/build.make CMakeFiles/cmTC_49799.dir/build
 make[1]: Entering directory `/home/travis/build/Porphyrion/otus.lesson.4/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_521aa.dir/feature_tests.c.o
-/usr/bin/gcc   -std=c11 -o CMakeFiles/cmTC_521aa.dir/feature_tests.c.o   -c /home/travis/build/Porphyrion/otus.lesson.4/CMakeFiles/feature_tests.c
-Linking C executable cmTC_521aa
-/usr/local/cmake-3.9.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_521aa.dir/link.txt --verbose=1
-/usr/bin/gcc      -rdynamic CMakeFiles/cmTC_521aa.dir/feature_tests.c.o  -o cmTC_521aa 
+Building C object CMakeFiles/cmTC_49799.dir/feature_tests.c.o
+/usr/bin/gcc   -std=c11 -o CMakeFiles/cmTC_49799.dir/feature_tests.c.o   -c /home/travis/build/Porphyrion/otus.lesson.4/CMakeFiles/feature_tests.c
+Linking C executable cmTC_49799
+/usr/local/cmake-3.9.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_49799.dir/link.txt --verbose=1
+/usr/bin/gcc      -rdynamic CMakeFiles/cmTC_49799.dir/feature_tests.c.o  -o cmTC_49799 
 make[1]: Leaving directory `/home/travis/build/Porphyrion/otus.lesson.4/CMakeFiles/CMakeTmp'
 
 
@@ -162,14 +162,14 @@ make[1]: Leaving directory `/home/travis/build/Porphyrion/otus.lesson.4/CMakeFil
 Detecting C [-std=c99] compiler features compiled with the following output:
 Change Dir: /home/travis/build/Porphyrion/otus.lesson.4/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_59f72/fast"
-/usr/bin/make -f CMakeFiles/cmTC_59f72.dir/build.make CMakeFiles/cmTC_59f72.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_48c97/fast"
+/usr/bin/make -f CMakeFiles/cmTC_48c97.dir/build.make CMakeFiles/cmTC_48c97.dir/build
 make[1]: Entering directory `/home/travis/build/Porphyrion/otus.lesson.4/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_59f72.dir/feature_tests.c.o
-/usr/bin/gcc   -std=c99 -o CMakeFiles/cmTC_59f72.dir/feature_tests.c.o   -c /home/travis/build/Porphyrion/otus.lesson.4/CMakeFiles/feature_tests.c
-Linking C executable cmTC_59f72
-/usr/local/cmake-3.9.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_59f72.dir/link.txt --verbose=1
-/usr/bin/gcc      -rdynamic CMakeFiles/cmTC_59f72.dir/feature_tests.c.o  -o cmTC_59f72 
+Building C object CMakeFiles/cmTC_48c97.dir/feature_tests.c.o
+/usr/bin/gcc   -std=c99 -o CMakeFiles/cmTC_48c97.dir/feature_tests.c.o   -c /home/travis/build/Porphyrion/otus.lesson.4/CMakeFiles/feature_tests.c
+Linking C executable cmTC_48c97
+/usr/local/cmake-3.9.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_48c97.dir/link.txt --verbose=1
+/usr/bin/gcc      -rdynamic CMakeFiles/cmTC_48c97.dir/feature_tests.c.o  -o cmTC_48c97 
 make[1]: Leaving directory `/home/travis/build/Porphyrion/otus.lesson.4/CMakeFiles/CMakeTmp'
 
 
@@ -182,14 +182,14 @@ make[1]: Leaving directory `/home/travis/build/Porphyrion/otus.lesson.4/CMakeFil
 Detecting C [-std=c90] compiler features compiled with the following output:
 Change Dir: /home/travis/build/Porphyrion/otus.lesson.4/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_a6077/fast"
-/usr/bin/make -f CMakeFiles/cmTC_a6077.dir/build.make CMakeFiles/cmTC_a6077.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_062d6/fast"
+/usr/bin/make -f CMakeFiles/cmTC_062d6.dir/build.make CMakeFiles/cmTC_062d6.dir/build
 make[1]: Entering directory `/home/travis/build/Porphyrion/otus.lesson.4/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_a6077.dir/feature_tests.c.o
-/usr/bin/gcc   -std=c90 -o CMakeFiles/cmTC_a6077.dir/feature_tests.c.o   -c /home/travis/build/Porphyrion/otus.lesson.4/CMakeFiles/feature_tests.c
-Linking C executable cmTC_a6077
-/usr/local/cmake-3.9.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a6077.dir/link.txt --verbose=1
-/usr/bin/gcc      -rdynamic CMakeFiles/cmTC_a6077.dir/feature_tests.c.o  -o cmTC_a6077 
+Building C object CMakeFiles/cmTC_062d6.dir/feature_tests.c.o
+/usr/bin/gcc   -std=c90 -o CMakeFiles/cmTC_062d6.dir/feature_tests.c.o   -c /home/travis/build/Porphyrion/otus.lesson.4/CMakeFiles/feature_tests.c
+Linking C executable cmTC_062d6
+/usr/local/cmake-3.9.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_062d6.dir/link.txt --verbose=1
+/usr/bin/gcc      -rdynamic CMakeFiles/cmTC_062d6.dir/feature_tests.c.o  -o cmTC_062d6 
 make[1]: Leaving directory `/home/travis/build/Porphyrion/otus.lesson.4/CMakeFiles/CMakeTmp'
 
 
@@ -200,28 +200,28 @@ make[1]: Leaving directory `/home/travis/build/Porphyrion/otus.lesson.4/CMakeFil
 Determining if the CXX compiler works passed with the following output:
 Change Dir: /home/travis/build/Porphyrion/otus.lesson.4/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_5bb04/fast"
-/usr/bin/make -f CMakeFiles/cmTC_5bb04.dir/build.make CMakeFiles/cmTC_5bb04.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_008f6/fast"
+/usr/bin/make -f CMakeFiles/cmTC_008f6.dir/build.make CMakeFiles/cmTC_008f6.dir/build
 make[1]: Entering directory `/home/travis/build/Porphyrion/otus.lesson.4/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_5bb04.dir/testCXXCompiler.cxx.o
-/usr/bin/g++     -o CMakeFiles/cmTC_5bb04.dir/testCXXCompiler.cxx.o -c /home/travis/build/Porphyrion/otus.lesson.4/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
-Linking CXX executable cmTC_5bb04
-/usr/local/cmake-3.9.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5bb04.dir/link.txt --verbose=1
-/usr/bin/g++       -rdynamic CMakeFiles/cmTC_5bb04.dir/testCXXCompiler.cxx.o  -o cmTC_5bb04 
+Building CXX object CMakeFiles/cmTC_008f6.dir/testCXXCompiler.cxx.o
+/usr/bin/g++     -o CMakeFiles/cmTC_008f6.dir/testCXXCompiler.cxx.o -c /home/travis/build/Porphyrion/otus.lesson.4/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_008f6
+/usr/local/cmake-3.9.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_008f6.dir/link.txt --verbose=1
+/usr/bin/g++       -rdynamic CMakeFiles/cmTC_008f6.dir/testCXXCompiler.cxx.o  -o cmTC_008f6 
 make[1]: Leaving directory `/home/travis/build/Porphyrion/otus.lesson.4/CMakeFiles/CMakeTmp'
 
 
 Detecting CXX compiler ABI info compiled with the following output:
 Change Dir: /home/travis/build/Porphyrion/otus.lesson.4/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_cf458/fast"
-/usr/bin/make -f CMakeFiles/cmTC_cf458.dir/build.make CMakeFiles/cmTC_cf458.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_ea7cb/fast"
+/usr/bin/make -f CMakeFiles/cmTC_ea7cb.dir/build.make CMakeFiles/cmTC_ea7cb.dir/build
 make[1]: Entering directory `/home/travis/build/Porphyrion/otus.lesson.4/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_cf458.dir/CMakeCXXCompilerABI.cpp.o
-/usr/bin/g++     -o CMakeFiles/cmTC_cf458.dir/CMakeCXXCompilerABI.cpp.o -c /usr/local/cmake-3.9.2/share/cmake-3.9/Modules/CMakeCXXCompilerABI.cpp
-Linking CXX executable cmTC_cf458
-/usr/local/cmake-3.9.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cf458.dir/link.txt --verbose=1
-/usr/bin/g++      -v -rdynamic CMakeFiles/cmTC_cf458.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_cf458 
+Building CXX object CMakeFiles/cmTC_ea7cb.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/g++     -o CMakeFiles/cmTC_ea7cb.dir/CMakeCXXCompilerABI.cpp.o -c /usr/local/cmake-3.9.2/share/cmake-3.9/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTC_ea7cb
+/usr/local/cmake-3.9.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ea7cb.dir/link.txt --verbose=1
+/usr/bin/g++      -v -rdynamic CMakeFiles/cmTC_ea7cb.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_ea7cb 
 Using built-in specs.
 COLLECT_GCC=/usr/bin/g++
 COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/4.8/lto-wrapper
@@ -231,8 +231,8 @@ Thread model: posix
 gcc version 4.8.4 (Ubuntu 4.8.4-2ubuntu1~14.04.3) 
 COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/
 LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_cf458' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
- /usr/lib/gcc/x86_64-linux-gnu/4.8/collect2 --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_cf458 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/4.8/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/4.8 -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../.. CMakeFiles/cmTC_cf458.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/4.8/crtend.o /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_ea7cb' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/4.8/collect2 --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_ea7cb /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/4.8/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/4.8 -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../.. CMakeFiles/cmTC_ea7cb.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/4.8/crtend.o /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crtn.o
 make[1]: Leaving directory `/home/travis/build/Porphyrion/otus.lesson.4/CMakeFiles/CMakeTmp'
 
 
@@ -240,14 +240,14 @@ Parsed CXX implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
   ignore line: [Change Dir: /home/travis/build/Porphyrion/otus.lesson.4/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_cf458/fast"]
-  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_cf458.dir/build.make CMakeFiles/cmTC_cf458.dir/build]
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_ea7cb/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_ea7cb.dir/build.make CMakeFiles/cmTC_ea7cb.dir/build]
   ignore line: [make[1]: Entering directory `/home/travis/build/Porphyrion/otus.lesson.4/CMakeFiles/CMakeTmp']
-  ignore line: [Building CXX object CMakeFiles/cmTC_cf458.dir/CMakeCXXCompilerABI.cpp.o]
-  ignore line: [/usr/bin/g++     -o CMakeFiles/cmTC_cf458.dir/CMakeCXXCompilerABI.cpp.o -c /usr/local/cmake-3.9.2/share/cmake-3.9/Modules/CMakeCXXCompilerABI.cpp]
-  ignore line: [Linking CXX executable cmTC_cf458]
-  ignore line: [/usr/local/cmake-3.9.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cf458.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/g++      -v -rdynamic CMakeFiles/cmTC_cf458.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_cf458 ]
+  ignore line: [Building CXX object CMakeFiles/cmTC_ea7cb.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/bin/g++     -o CMakeFiles/cmTC_ea7cb.dir/CMakeCXXCompilerABI.cpp.o -c /usr/local/cmake-3.9.2/share/cmake-3.9/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTC_ea7cb]
+  ignore line: [/usr/local/cmake-3.9.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ea7cb.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/g++      -v -rdynamic CMakeFiles/cmTC_ea7cb.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_ea7cb ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/g++]
   ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/4.8/lto-wrapper]
@@ -257,8 +257,8 @@ Parsed CXX implicit link information from above output:
   ignore line: [gcc version 4.8.4 (Ubuntu 4.8.4-2ubuntu1~14.04.3) ]
   ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/]
   ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_cf458' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
-  link line: [ /usr/lib/gcc/x86_64-linux-gnu/4.8/collect2 --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_cf458 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/4.8/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/4.8 -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../.. CMakeFiles/cmTC_cf458.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/4.8/crtend.o /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crtn.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_ea7cb' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/4.8/collect2 --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_ea7cb /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/4.8/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/4.8 -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../.. CMakeFiles/cmTC_ea7cb.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/4.8/crtend.o /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crtn.o]
     arg [/usr/lib/gcc/x86_64-linux-gnu/4.8/collect2] ==> ignore
     arg [--sysroot=/] ==> ignore
     arg [--build-id] ==> ignore
@@ -272,7 +272,7 @@ Parsed CXX implicit link information from above output:
     arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
     arg [-zrelro] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_cf458] ==> ignore
+    arg [cmTC_ea7cb] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crti.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/4.8/crtbegin.o] ==> ignore
@@ -284,7 +284,7 @@ Parsed CXX implicit link information from above output:
     arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
     arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
     arg [-L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../..]
-    arg [CMakeFiles/cmTC_cf458.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [CMakeFiles/cmTC_ea7cb.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
     arg [-lstdc++] ==> lib [stdc++]
     arg [-lm] ==> lib [m]
     arg [-lgcc_s] ==> lib [gcc_s]
@@ -312,14 +312,14 @@ Parsed CXX implicit link information from above output:
 Detecting CXX [-std=c++1y] compiler features compiled with the following output:
 Change Dir: /home/travis/build/Porphyrion/otus.lesson.4/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_5e738/fast"
-/usr/bin/make -f CMakeFiles/cmTC_5e738.dir/build.make CMakeFiles/cmTC_5e738.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_32c6e/fast"
+/usr/bin/make -f CMakeFiles/cmTC_32c6e.dir/build.make CMakeFiles/cmTC_32c6e.dir/build
 make[1]: Entering directory `/home/travis/build/Porphyrion/otus.lesson.4/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_5e738.dir/feature_tests.cxx.o
-/usr/bin/g++    -std=c++1y -o CMakeFiles/cmTC_5e738.dir/feature_tests.cxx.o -c /home/travis/build/Porphyrion/otus.lesson.4/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_5e738
-/usr/local/cmake-3.9.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5e738.dir/link.txt --verbose=1
-/usr/bin/g++       -rdynamic CMakeFiles/cmTC_5e738.dir/feature_tests.cxx.o  -o cmTC_5e738 
+Building CXX object CMakeFiles/cmTC_32c6e.dir/feature_tests.cxx.o
+/usr/bin/g++    -std=c++1y -o CMakeFiles/cmTC_32c6e.dir/feature_tests.cxx.o -c /home/travis/build/Porphyrion/otus.lesson.4/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_32c6e
+/usr/local/cmake-3.9.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_32c6e.dir/link.txt --verbose=1
+/usr/bin/g++       -rdynamic CMakeFiles/cmTC_32c6e.dir/feature_tests.cxx.o  -o cmTC_32c6e 
 make[1]: Leaving directory `/home/travis/build/Porphyrion/otus.lesson.4/CMakeFiles/CMakeTmp'
 
 
@@ -385,14 +385,14 @@ make[1]: Leaving directory `/home/travis/build/Porphyrion/otus.lesson.4/CMakeFil
 Detecting CXX [-std=c++11] compiler features compiled with the following output:
 Change Dir: /home/travis/build/Porphyrion/otus.lesson.4/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_bcd9a/fast"
-/usr/bin/make -f CMakeFiles/cmTC_bcd9a.dir/build.make CMakeFiles/cmTC_bcd9a.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_d3a3c/fast"
+/usr/bin/make -f CMakeFiles/cmTC_d3a3c.dir/build.make CMakeFiles/cmTC_d3a3c.dir/build
 make[1]: Entering directory `/home/travis/build/Porphyrion/otus.lesson.4/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_bcd9a.dir/feature_tests.cxx.o
-/usr/bin/g++    -std=c++11 -o CMakeFiles/cmTC_bcd9a.dir/feature_tests.cxx.o -c /home/travis/build/Porphyrion/otus.lesson.4/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_bcd9a
-/usr/local/cmake-3.9.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bcd9a.dir/link.txt --verbose=1
-/usr/bin/g++       -rdynamic CMakeFiles/cmTC_bcd9a.dir/feature_tests.cxx.o  -o cmTC_bcd9a 
+Building CXX object CMakeFiles/cmTC_d3a3c.dir/feature_tests.cxx.o
+/usr/bin/g++    -std=c++11 -o CMakeFiles/cmTC_d3a3c.dir/feature_tests.cxx.o -c /home/travis/build/Porphyrion/otus.lesson.4/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_d3a3c
+/usr/local/cmake-3.9.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d3a3c.dir/link.txt --verbose=1
+/usr/bin/g++       -rdynamic CMakeFiles/cmTC_d3a3c.dir/feature_tests.cxx.o  -o cmTC_d3a3c 
 make[1]: Leaving directory `/home/travis/build/Porphyrion/otus.lesson.4/CMakeFiles/CMakeTmp'
 
 
@@ -458,14 +458,14 @@ make[1]: Leaving directory `/home/travis/build/Porphyrion/otus.lesson.4/CMakeFil
 Detecting CXX [-std=c++98] compiler features compiled with the following output:
 Change Dir: /home/travis/build/Porphyrion/otus.lesson.4/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_ea230/fast"
-/usr/bin/make -f CMakeFiles/cmTC_ea230.dir/build.make CMakeFiles/cmTC_ea230.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_d3fb7/fast"
+/usr/bin/make -f CMakeFiles/cmTC_d3fb7.dir/build.make CMakeFiles/cmTC_d3fb7.dir/build
 make[1]: Entering directory `/home/travis/build/Porphyrion/otus.lesson.4/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_ea230.dir/feature_tests.cxx.o
-/usr/bin/g++    -std=c++98 -o CMakeFiles/cmTC_ea230.dir/feature_tests.cxx.o -c /home/travis/build/Porphyrion/otus.lesson.4/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_ea230
-/usr/local/cmake-3.9.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ea230.dir/link.txt --verbose=1
-/usr/bin/g++       -rdynamic CMakeFiles/cmTC_ea230.dir/feature_tests.cxx.o  -o cmTC_ea230 
+Building CXX object CMakeFiles/cmTC_d3fb7.dir/feature_tests.cxx.o
+/usr/bin/g++    -std=c++98 -o CMakeFiles/cmTC_d3fb7.dir/feature_tests.cxx.o -c /home/travis/build/Porphyrion/otus.lesson.4/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_d3fb7
+/usr/local/cmake-3.9.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d3fb7.dir/link.txt --verbose=1
+/usr/bin/g++       -rdynamic CMakeFiles/cmTC_d3fb7.dir/feature_tests.cxx.o  -o cmTC_d3fb7 
 make[1]: Leaving directory `/home/travis/build/Porphyrion/otus.lesson.4/CMakeFiles/CMakeTmp'
 
 
