@@ -4,18 +4,11 @@ addons:
   apt:
     packages:
       - doxygen
-
 script:
 - cmake .
 - cmake --build .
 - cmake --build . --target package
 - doxygen $TRAVIS_BUILD_DIR/Doxyfile
-
-deploy:
-  provider: script
-  skip_cleanup: true
-  script:
-  - curl -T ipprint-0.0.$TRAVIS_BUILD_NUMBER-Linux.deb -uporphyrion:$BINTRAY_API_KEY "https://api.bintray.com/content/porphyrion/otus/otus.lessons.4/$TRAVIS_BUILD_NUMBER/ipprint-0.0.$TRAVIS_BUILD_NUMBER-Linux.deb;deb_distribution=trusty;deb_component=main;deb_architecture=amd64;publish=1"
 
 deploy:
   provider: pages
@@ -25,3 +18,10 @@ deploy:
   local-dir: html
   on:
     branch: master
+
+deploy:
+  provider: script
+  skip_cleanup: true
+  script:
+  - curl -T ipprint-0.0.$TRAVIS_BUILD_NUMBER-Linux.deb -uporphyrion:$BINTRAY_API_KEY "https://api.bintray.com/content/porphyrion/otus/otus.lessons.4/$TRAVIS_BUILD_NUMBER/ipprint-0.0.$TRAVIS_BUILD_NUMBER-Linux.deb;deb_distribution=trusty;deb_component=main;deb_architecture=amd64;publish=1"
+
