@@ -37,6 +37,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
   <div id="navrow1" class="tabs">
     <ul class="tablist">
       <li><a href="index.html"><span>Main&#160;Page</span></a></li>
+      <li><a href="annotated.html"><span>Classes</span></a></li>
       <li class="current"><a href="files.html"><span>Files</span></a></li>
       <li>
         <div id="MSearchBox" class="MSearchBoxInactive">
@@ -67,7 +68,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
      onmouseover="return searchBox.OnSearchSelectShow()"
      onmouseout="return searchBox.OnSearchSelectHide()"
      onkeydown="return searchBox.OnSearchSelectKey(event)">
-<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Macros</a></div>
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Macros</a></div>
 
 <!-- iframe showing the search results (closed by default) -->
 <div id="MSearchResultsWindow">
@@ -85,6 +86,13 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><code>#include &lt;iostream&gt;</code><br/>
+<code>#include &lt;vector&gt;</code><br/>
+<code>#include &lt;type_traits&gt;</code><br/>
+<code>#include &lt;typeinfo&gt;</code><br/>
+<code>#include &lt;sstream&gt;</code><br/>
+<code>#include &lt;string&gt;</code><br/>
+<code>#include &lt;list&gt;</code><br/>
+<code>#include &quot;<a class="el" href="mytypetraits_8h_source.html">mytypetraits.h</a>&quot;</code><br/>
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for main.cpp:</div>
 <div class="dyncontent">
@@ -95,6 +103,21 @@ Include dependency graph for main.cpp:</div>
 </div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
+<tr class="memitem:a0901fa45b57403054313954388e0a2f8"><td class="memTemplParams" colspan="2">template&lt;class T &gt; </td></tr>
+<tr class="memitem:a0901fa45b57403054313954388e0a2f8"><td class="memTemplItemLeft" align="right" valign="top">std::enable_if<br class="typebreak"/>
+&lt; std::is_integral&lt; T &gt;::value, <br class="typebreak"/>
+void &gt;::type&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="main_8cpp.html#a0901fa45b57403054313954388e0a2f8">print_ip</a> (T t)</td></tr>
+<tr class="separator:a0901fa45b57403054313954388e0a2f8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2f85a81236862f89bb705f6d68e198d2"><td class="memTemplParams" colspan="2">template&lt;class T &gt; </td></tr>
+<tr class="memitem:a2f85a81236862f89bb705f6d68e198d2"><td class="memTemplItemLeft" align="right" valign="top">std::enable_if&lt; std::is_same<br class="typebreak"/>
+&lt; std::string, T &gt;::value, <br class="typebreak"/>
+void &gt;::type&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="main_8cpp.html#a2f85a81236862f89bb705f6d68e198d2">print_ip</a> (T t)</td></tr>
+<tr class="separator:a2f85a81236862f89bb705f6d68e198d2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1cae743270a61089ddf9f306809ab195"><td class="memTemplParams" colspan="2">template&lt;class T &gt; </td></tr>
+<tr class="memitem:a1cae743270a61089ddf9f306809ab195"><td class="memTemplItemLeft" align="right" valign="top">std::enable_if<br class="typebreak"/>
+&lt; <a class="el" href="structis__vector__or__list.html">is_vector_or_list</a>&lt; T &gt;<br class="typebreak"/>
+::value, void &gt;::type&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="main_8cpp.html#a1cae743270a61089ddf9f306809ab195">print_ip</a> (T t)</td></tr>
+<tr class="separator:a1cae743270a61089ddf9f306809ab195"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abf9e6b7e6f15df4b525a2e7705ba3089"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="main_8cpp.html#abf9e6b7e6f15df4b525a2e7705ba3089">main</a> (int argc, char const *argv[])</td></tr>
 <tr class="separator:abf9e6b7e6f15df4b525a2e7705ba3089"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
@@ -122,7 +145,60 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>... первая строчка ... ... вторая строчка ... </p>
+
+</div>
+</div>
+<a class="anchor" id="a0901fa45b57403054313954388e0a2f8"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class T &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">std::enable_if&lt;std::is_integral&lt;T&gt;::value, void&gt;::type print_ip </td>
+          <td>(</td>
+          <td class="paramtype">T&#160;</td>
+          <td class="paramname"><em>t</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a2f85a81236862f89bb705f6d68e198d2"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class T &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">std::enable_if&lt;std::is_same&lt;std::string, T&gt;::value, void&gt;::type print_ip </td>
+          <td>(</td>
+          <td class="paramtype">T&#160;</td>
+          <td class="paramname"><em>t</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a1cae743270a61089ddf9f306809ab195"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class T &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">std::enable_if&lt;<a class="el" href="structis__vector__or__list.html">is_vector_or_list</a>&lt;T&gt;::value, void&gt;::type print_ip </td>
+          <td>(</td>
+          <td class="paramtype">T&#160;</td>
+          <td class="paramname"><em>t</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
 
 </div>
 </div>
