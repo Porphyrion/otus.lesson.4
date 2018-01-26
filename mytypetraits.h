@@ -1,3 +1,9 @@
+/*! 
+    \defgroup  type_traits
+    \brief Данный модуль, предназначен для .
+    
+*/
+
 #include <vector>
 #include <list>
 
