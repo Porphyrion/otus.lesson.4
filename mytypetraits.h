@@ -1,8 +1,5 @@
-/*! 
-    \defgroup  type_traits
-    \brief Данный модуль, предназначен для .
-    
-*/
+/// \brief type_traites
+/// \details Проверяет является ли тип вектором или списком
 
 #include <vector>
 #include <list>
