@@ -1,3 +1,7 @@
+/*!
+\file
+\brief Заголовочный файл с версией пакета
+*/
 #pragma once 
 
 #cmakedefine PROJECT_VERSION_PATCH @PROJECT_VERSION_PATCH@
