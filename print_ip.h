@@ -14,10 +14,14 @@
 
 /*!
 Шаблонная функция печати адреса в зависимости от переданного в нее параметра 
-\param[T] тип передаваемого параметра
-\param[t] передаваемый параметр
+\param[T тип передаваемого параметра
+\param[t передаваемый параметр
 */
 
+
+/*!
+Специализация для целочисленных типов
+*/
 template<class T>
 typename std::enable_if<std::is_integral<T>::value, void>::type print_ip(T t)
 {	
@@ -37,12 +41,20 @@ typename std::enable_if<std::is_integral<T>::value, void>::type print_ip(T t)
 	std::cout<<std::endl;
 }
 
+
+/*!
+Специализация для std::string
+*/
 template<class T>
 typename std::enable_if<std::is_same<std::string, T>::value, void>::type print_ip(T t)
 {	
 	std::cout<<t<<std::endl;
 }
 
+
+/*!
+Специализация для std::vector и std::list
+*/
 template<class T>
 typename std::enable_if<is_vector_or_list<T>::value, void>::type print_ip(T t)
 {	
