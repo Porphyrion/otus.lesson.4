@@ -34,5 +34,6 @@
 ### Установка
 
     echo "deb https://dl.bintray.com/porphyrion/otus trusty main" | sudo tee -a /etc/apt/sources.list
+    sudo apt install print_ip
 
 [Ссылка на документацию](https://porphyrion.github.io/otus.lesson.4/index.html)
