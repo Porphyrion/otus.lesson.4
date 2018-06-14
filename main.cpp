@@ -4,6 +4,7 @@
 #include <typeinfo>
 #include <string>
 #include <list>
+#include <tuple>
 #include "print_ip.h"
 
 /*!
@@ -17,10 +18,10 @@
 
 /*!
 \file
-\brief Основной файл программы 
+\brief Основной файл программы
 */
 int main(int argc, char const *argv[]){
-	
+
 	print_ip(char(-1));
 	print_ip(short(0));
 	print_ip(int(2130706433));
@@ -28,6 +29,8 @@ int main(int argc, char const *argv[]){
 	print_ip(std::string{"13.45.65.89"});
 	print_ip(std::vector<int>{1,24,54,65});
 	print_ip(std::list<std::string>{"243", "895", "543", "146"});
+	auto x = std::make_tuple(1,22,59,666);
+	print_ip(x);
 
 	return 0;
 }
