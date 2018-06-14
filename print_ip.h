@@ -51,7 +51,6 @@ typename std::enable_if<std::is_same<std::string, T>::value, void>::type print_i
 	std::cout<<t<<std::endl;
 }
 
-
 /*!
 Специализация для std::vector и std::list
 */
@@ -70,7 +69,7 @@ typename std::enable_if<is_vector_or_list<T>::value, void>::type print_ip(T t)
 }
 
 /*!
-Вспомогательные функции для печати  std::tupple
+Вспомогательный класс для печати std::tupple
 */
 template<std::size_t Index, class ...Args>
 struct tuple_foreach
@@ -84,6 +83,9 @@ struct tuple_foreach
     }
 };
 
+/*!
+Специализация вспомогательного класса tuple_foreach
+*/
 template< class ... Args>
 struct tuple_foreach<1, Args...>
 {

@@ -7,12 +7,11 @@ configure_file(version.h.in version.h)
 add_executable(print_ip main.cpp)
 
 set_target_properties(print_ip PROPERTIES
-	CXX_STANDART 14
-	CXX_STANDART_REQUIRED ON
+	CXX_STANDARD 14
+	CXX_STANDARD_REQUIRED ON
 	COMPILE_OPTION -Wpedantic -Wall -Wextra
 	)
-	
-set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++14")
+
 
 install(TARGETS print_ip RUNTIME DESTINATION bin)
 
