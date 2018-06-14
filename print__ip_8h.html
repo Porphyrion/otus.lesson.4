@@ -81,6 +81,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </div><!-- top -->
 <div class="header">
   <div class="summary">
+<a href="#nested-classes">Classes</a> &#124;
 <a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
 <div class="title">print_ip.h File Reference</div>  </div>
@@ -113,6 +114,13 @@ This graph shows which files directly or indirectly include this file:</div>
 </div>
 <p><a href="print__ip_8h_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
+Classes</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structtuple__foreach.html">tuple_foreach&lt; Index, Args &gt;</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structtuple__foreach_3_011_00_01_args_8_8_8_4.html">tuple_foreach&lt; 1, Args...&gt;</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
 <tr class="memitem:a0901fa45b57403054313954388e0a2f8"><td class="memTemplParams" colspan="2">template&lt;class T &gt; </td></tr>
@@ -130,6 +138,9 @@ void &gt;::type&#160;</td><td class="memTemplItemRight" valign="bottom"><a class
 &lt; <a class="el" href="structis__vector__or__list.html">is_vector_or_list</a>&lt; T &gt;<br class="typebreak"/>
 ::value, void &gt;::type&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="print__ip_8h.html#a1cae743270a61089ddf9f306809ab195">print_ip</a> (T t)</td></tr>
 <tr class="separator:a1cae743270a61089ddf9f306809ab195"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5db002c038ca3efb320ce83c5177ebcf"><td class="memTemplParams" colspan="2">template&lt;typename... Args&gt; </td></tr>
+<tr class="memitem:a5db002c038ca3efb320ce83c5177ebcf"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="print__ip_8h.html#a5db002c038ca3efb320ce83c5177ebcf">print_ip</a> (std::tuple&lt; Args...&gt; tuple)</td></tr>
+<tr class="separator:a5db002c038ca3efb320ce83c5177ebcf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Заголовочный файл с определением метафункции печати ip-адреса </p>
@@ -197,6 +208,25 @@ template&lt;class T &gt; </div>
       </table>
 </div><div class="memdoc">
 <p>Специализация для std::vector и std::list </p>
+
+</div>
+</div>
+<a class="anchor" id="a5db002c038ca3efb320ce83c5177ebcf"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename... Args&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">void print_ip </td>
+          <td>(</td>
+          <td class="paramtype">std::tuple&lt; Args...&gt;&#160;</td>
+          <td class="paramname"><em>tuple</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Специализация для std::tupple </p>
 
 </div>
 </div>
