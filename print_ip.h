@@ -69,7 +69,7 @@ typename std::enable_if<is_vector_or_list<T>::value, void>::type print_ip(T t)
 }
 
 /*!
-Вспомогательный класс для печати std::tupple
+\brief Вспомогательный класс для печати std::tupple
 */
 template<std::size_t Index, class ...Args>
 struct tuple_foreach
@@ -84,7 +84,7 @@ struct tuple_foreach
 };
 
 /*!
-Специализация вспомогательного класса tuple_foreach
+\brief Специализация вспомогательного класса tuple_foreach
 */
 template< class ... Args>
 struct tuple_foreach<1, Args...>

@@ -8,23 +8,23 @@
 
 #include <vector>
 #include <list>
-/*
-Проверяет, является ли тип std::vector или std::list
+/*!
+\brief Проверяет, является ли тип std::vector или std::list
 */
 template<typename T>
 struct is_vector_or_list{
 	static const bool value = false;
 };
-/*
-Специализация is_vector_or_list для std::vector
+/*!
+\brief Специализация is_vector_or_list для std::vector
 */
 template<typename T>
 struct is_vector_or_list<std::vector<T>>
 {
 	static const bool value = true;
 };
-/*
-Специализация is_vector_or_list для std::list
+/*!
+\brief Специализация is_vector_or_list для std::list
 */
 template<typename T>
 struct is_vector_or_list<std::list<T>>
